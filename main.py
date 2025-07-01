@@ -12,7 +12,7 @@ def calculate_lsp(inputs):
 
     # --- 計算設定 ---
     TARGET_LSP = inputs['target_lsp']
-    JPY_PER_JAL_CARD_MILE = 100  # JALカードの1マイル獲得に必要な円
+    JPY_PER_JAL_CARD_MILE = 200  # JALカードの1マイル獲得に必要な円
 
     total_lsp = 0
     breakdown = {}
